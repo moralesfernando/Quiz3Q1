@@ -43,12 +43,14 @@ public class Triangle extends GeometricObject{
 		return Area;
 	}
 
+	@Override
 	public double getPerimeter(){
 		double Perimeter;
 		Perimeter = this.side1+this.side2+this.side3;
 		return Perimeter;
 	}
 	
+	@Override
 	public String toString(){
 		return "The created triangle has the following properties: side1 is " + this.side1 + "side 2 is " + this.side2 + "side3 is " + this.side3 + "Area is " + getArea() + "Perimeter is " + getPerimeter();
 	}
