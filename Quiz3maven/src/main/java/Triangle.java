@@ -53,5 +53,4 @@ public class Triangle extends GeometricObject{
 		return "The created triangle has the following properties: side1 is " + this.side1 + "side 2 is " + this.side2 + "side3 is " + this.side3 + "Area is " + getArea() + "Perimeter is " + getPerimeter();
 	}
 	
-
 }
